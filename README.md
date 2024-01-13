@@ -2,10 +2,6 @@
 
 **TaskQuest** is an engaging, fun and easy-to-use to-do list application for Windows, MacOS and Linux.
 
-Developed by Shayn Adatia, Matthew Switt, Andrei Gliga and William Wang (Team 102).
-
-We are planning to meet 2-3 times weekly, following a hybrid model. Meeting minutes are tracked [here](https://git.uwaterloo.ca/s4adatia/cs-346-project/-/wikis/Meeting-Minutes).
-
 ## Description
 
 TaskQuest is a task tracking app with a focus on engaging users and motivating them to complete their tasks. We have found that while many apps exist for efficiently organizing, tracking and displaying your tasks, most of them do not help with motivating users to accomplish their tasks, especially for individuals who have difficulty focusing and prioritizing their duties.
