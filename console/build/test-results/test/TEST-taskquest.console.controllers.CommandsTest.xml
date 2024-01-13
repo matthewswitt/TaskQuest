@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taskquest.console.controllers.CommandsTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2022-12-02T08:52:26" hostname="MacBook-Pro-2.local" time="0.089">
+  <properties/>
+  <testcase name="coinCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.039"/>
+  <testcase name="addTagsCommandNorm()" classname="taskquest.console.controllers.CommandsTest" time="0.009"/>
+  <testcase name="addTagsCommandMoreArgs()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="delAll()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="delTagCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="sortByTitleAscCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.013"/>
+  <testcase name="showTagCommandWithTags()" classname="taskquest.console.controllers.CommandsTest" time="0.002"/>
+  <testcase name="listDelCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.002"/>
+  <testcase name="sortByDueDateDescCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.0"/>
+  <testcase name="delTagCommandFail()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="sortByDueDateAscCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="addTagsCommandLessArgs()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="showTagCommandWithOutTags()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="sortByTitleDescCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.0"/>
+  <testcase name="showCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="selectListCommandOne()" classname="taskquest.console.controllers.CommandsTest" time="0.0"/>
+  <testcase name="delCommand()" classname="taskquest.console.controllers.CommandsTest" time="0.001"/>
+  <testcase name="commandFactory()" classname="taskquest.console.controllers.CommandsTest" time="0.002"/>
+  <system-out><![CDATA[You have 0 coin in your wallet.
+Please specify a tag you would like to delete.
+Please specify a tag you would like to delete.
+Tag tag1 successfuly deleted
+  1. tag2
+  2. tag1
+You successfully deleted list 2: Test List 2
+You successfully deleted list 1: Test List
+Tag tag does not exist
+  1. tag2
+  2. tag1
+  3. tag3
+You have no tasks for your Test List list. Create tasks for this list using the add command.
+You successfully deleted task 2: banana
+You deleted your only task titled apple. Your Test List list is now empty.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taskquest.console.views.MainTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2022-12-02T08:52:26" hostname="MacBook-Pro-2.local" time="10.492">
+  <properties/>
+  <testcase name="mainWithDelTag()" classname="taskquest.console.views.MainTest" time="4.48"/>
+  <testcase name="mainWithHelpNothing()" classname="taskquest.console.views.MainTest" time="0.137"/>
+  <testcase name="mainWithWallet()" classname="taskquest.console.views.MainTest" time="0.097"/>
+  <testcase name="mainWithEditWrong()" classname="taskquest.console.views.MainTest" time="0.096"/>
+  <testcase name="mainWithShowTags()" classname="taskquest.console.views.MainTest" time="0.213"/>
+  <testcase name="mainWithoutArgs()" classname="taskquest.console.views.MainTest" time="0.147"/>
+  <testcase name="mainWithSortWrong()" classname="taskquest.console.views.MainTest" time="0.114"/>
+  <testcase name="mainWithAdd()" classname="taskquest.console.views.MainTest" time="0.105"/>
+  <testcase name="mainWithDel()" classname="taskquest.console.views.MainTest" time="3.337"/>
+  <testcase name="mainWithListEdit()" classname="taskquest.console.views.MainTest" time="0.08"/>
+  <testcase name="mainWithListShow()" classname="taskquest.console.views.MainTest" time="0.152"/>
+  <testcase name="mainWithAddTags()" classname="taskquest.console.views.MainTest" time="0.363"/>
+  <testcase name="mainWithListSelectWrong()" classname="taskquest.console.views.MainTest" time="0.174"/>
+  <testcase name="mainWithEdit()" classname="taskquest.console.views.MainTest" time="0.211"/>
+  <testcase name="mainWithHelp()" classname="taskquest.console.views.MainTest" time="0.273"/>
+  <testcase name="mainWithShow()" classname="taskquest.console.views.MainTest" time="0.163"/>
+  <testcase name="mainWithSort()" classname="taskquest.console.views.MainTest" time="0.075"/>
+  <testcase name="mainWithListDelete()" classname="taskquest.console.views.MainTest" time="0.098"/>
+  <testcase name="mainWithListSelect()" classname="taskquest.console.views.MainTest" time="0.165"/>
+  <system-out><![CDATA[Tag tag1 does not exist
+Tag tag2 does not exist
+You have 3900 coins in your wallet.
+Please specify a task you would like to edit
+  1. shi
+  2. yo
+Please specify a sorting method.
+You are adding a task to the hahah list.
+Please add a title: An error occurred.
+You successfully deleted task 1: t1
+The list being edited: 
+Name: hahah
+
+Enter the number associated with any field you would like to edit.
+[0] -> Done
+[1] -> Edit Title
+[2] -> Edit Description
+Enter a number (0 - 2): An error occurred.
+Lists:
+  1. Name: hahah <-- active
+
+Tag tag1 successfuly deleted
+Tag tag2 successfuly deleted
+Please specify a list you would like to select
+The task being edited in list hahah:
+updatecoins:
+Status: Complete
+Priority: High
+Difficulty: Hard
+Date Created: 2022-12-02
+
+Enter the number associated with any field you would like to edit.
+[0] -> Done
+[1] -> Edit Title
+[2] -> Edit Description
+[3] -> Edit Due Date
+[4] -> Edit Priority
+[5] -> Edit Difficulty
+[6] -> Edit Completion Status
+[7] -> Edit Tags
+Enter a number (0 - 7): An error occurred.
+Usage: taskquest command
+Command: 
+	help  ->  Usage info
+	List Commands: 
+		listshow  ->  Displays all lists along with each lists number, title and description (if exists). Specifies which list is currently active.
+		listadd  ->  Interactively adds a list.
+		listselect list_number  ->  Sets the currently active list to list list_number.
+		listedit list_number  ->  Interactively allows editing of the title and description for list list_number.
+		listdel list_number  ->  Deletes list list_number.
+
+	Task Commands: 
+		show  ->  Displays all tasks in the currently active list as well as each task's number.
+		add  ->  Interactively adds a task to the currently active list.
+		del task_number  ->  Deletes task task_number in the currently active list.
+		edit task_number  ->  Interactively allows editing of task task_number in the currently active list.
+		sort sorting_method  ->  Sorts the tasks in the currently active list by sorting_method.
+		     Supported sorting_method: 
+			default  ->  Sorts the order of the tasks to the order in which they were created.
+			byTitleAsc  ->  Sorts the tasks in lexicographically ascending order by title.
+			byTitleDesc  ->  Sorts the tasks in lexicographically descending order by title.
+			byDueDateAsc  ->  Sorts the tasks by earliest to latest due date.
+			byDueDateDesc  ->  Sorts the tasks by latest to earliest due date.
+			byDateCreatedAsc  ->  Sorts the tasks by earliest to latest date created.
+			byDateCreatedDesc  ->  Sorts the tasks by latest to earliest date created.
+			byPriorityAsc  ->  Sorts the tasks by lowest to highest priority.
+			byPriorityDesc  ->  Sorts the tasks by highest to lowest priority.
+			byDifficultyAsc  ->  Sorts the tasks by easiest to hardest difficulty.
+			byDifficultyDesc  ->  Sorts the tasks by hardest to easiest difficulty.
+			byCompletion  ->  Sorts the tasks so all incomplete tasks appear before complete tasks.
+
+	User Commands: 
+		addtags num_tags  ->  Adds num_tags to a users tags. Specify the names of the tags in this command as well (ie addtags 2 tag1 tag2)
+		deltag tag_name  ->  Deletes tag tag_name.
+		showtags  ->  Displays a users tags.
+		wallet  ->  Displays the number of coins one has.
+hahah:
+  1. task2:
+     Status: Incomplete
+     Tags: shi yo 
+     Date Created: 2022-12-02
+
+  2. updatecoins:
+     Status: Complete
+     Priority: High
+     Difficulty: Hard
+     Date Created: 2022-12-02
+
+You deleted your currently active list. Now you have no active list. 
+You have no lists to select.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
